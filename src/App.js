@@ -1,5 +1,6 @@
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
+import Ecommerce from "./pages/ecommerce/Ecommerce"; 
 import {
   createBrowserRouter,
   RouterProvider,
@@ -67,6 +68,10 @@ function App() {
     {
       path: "/login",
       element: <Login />,
+    },
+    {
+      path: "/Ecommerce",
+      element: <Ecommerce />,
     },
     {
       path: "/register",
